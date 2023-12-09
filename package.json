@@ -2,6 +2,7 @@
   "name": "nicks-react-boilerplate",
   "version": "1.0.1",
   "main": "index.js",
+  "files": ["src", ".babelrc", "webpack.config.js","README.md","tsconfig.json","package.json"],
   "keywords": [
     "yarn",
     "react",
