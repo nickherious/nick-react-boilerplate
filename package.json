@@ -1,6 +1,6 @@
 {
   "name": "nicks-react-boilerplate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "description": "A React Boilerplate using Typescript, Webpack",
   "bin": {
