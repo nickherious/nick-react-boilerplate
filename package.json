@@ -1,20 +1,11 @@
 {
   "name": "nicks-react-boilerplate",
   "version": "1.1.0",
-  "type": "module",
   "main": "index.js",
   "description": "A React Boilerplate using Typescript, Webpack",
   "bin": {
     "nicks-react-boilerplate": "./bin/cli.js"
   },
-  "files": [
-    "src",
-    ".babelrc",
-    "webpack.config.js",
-    "README.md",
-    "tsconfig.json",
-    "package.json"
-  ],
   "keywords": [
     "yarn",
     "react",
