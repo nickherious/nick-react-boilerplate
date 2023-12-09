@@ -13,22 +13,18 @@ Before you begin, ensure you have the following installed:
 
 ### Installation
 
-1. Clone the repository:
+1. Create the boilerplate:
 
    ```bash
-   git clone https://github.com/nickherious/nick-react-boilerplate.git
+   npx nicks-react-boilerplate <directory-name>
 
 2. Navigate to the project directory:
 
     ```bash
-    cd nick-react-boilerplate
+    cd <directory name>
 
-3. Install dependencies
 
-    ```bash
-    yarn
-
-4. Start the development server
+3. Start the development server
 
     ```bash
     yarn dev
