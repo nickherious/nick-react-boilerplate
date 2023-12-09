@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the container takes the full height of the viewport */
+  }
+
 h1 {
     color: green
 }
+
+.centered-div {
+    width: 450px;
+    text-align: center;
+}
+
