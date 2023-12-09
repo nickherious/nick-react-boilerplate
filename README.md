@@ -1,4 +1,4 @@
-# My React Boilerplate
+# Nick's React Boilerplate
 
 Welcome to My React Boilerplate! This project provides a starting point for building React applications with TypeScript, webpack, and other essential tools.
 
