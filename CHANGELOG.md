@@ -1,5 +1,11 @@
 # nicks-react-boilerplate
 
+## 1.4.0
+
+### Minor Changes
+
+- edc274e: added style and text to homepage
+
 ## 1.3.0
 
 ### Minor Changes
