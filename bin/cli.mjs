@@ -19,12 +19,12 @@ const repoUrl = "https://github.com/nickherious/nick-react-boilerplate";
 const dirName = process.argv[2];
 
 if (!dirName) {
-  console.error("Usage: ./cli.js <directory-name>");
+  console.error("Usage: ./cli.mjs <directory-name>");
   process.exit(1);
 }
 
 const gitCheckoutCommand = `git clone --depth 1 ${repoUrl} ${dirName}`;
-const npmInstallCommand = `cd ${dirName} && npm install && rm -rf .git* bin`;
+const yarnInstallCommand = `cd ${dirName} && yarn install && rm -rf .git* bin`;
 
 // Create new React app
 console.log(
@@ -43,7 +43,7 @@ console.log(
   chalk.blueBright.bold(`Installing dependencies for`),
   chalk.redBright.bold(`${dirName}`),
 );
-const installedDeps = runCommand(npmInstallCommand);
+const installedDeps = runCommand(yarnInstallCommand);
 if (!installedDeps) {
   process.exit(1);
 }
@@ -63,7 +63,7 @@ console.log(
   chalk.blueBright.bold.underline(`commands`),
   `:`,
   "\n\n",
-  chalk.yellowBright.bold("  npm start"),
+  chalk.yellowBright.bold("  yarn dev"),
   "\n",
   "    Starts the dev server",
   // (rest of the message remains the same)
