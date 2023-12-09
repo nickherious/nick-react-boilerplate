@@ -1,5 +1,11 @@
 # nicks-react-boilerplate
 
+## 1.4.2
+
+### Patch Changes
+
+- a1432a7: fixed script cli and removed deletion of changeset folder
+
 ## 1.4.1
 
 ### Patch Changes
