@@ -24,7 +24,7 @@ if (!dirName) {
 }
 
 const gitCheckoutCommand = `git clone --depth 1 ${repoUrl} ${dirName}`;
-const yarnInstallCommand = `cd ${dirName} && yarn install && rm -rf .git* bin .changeset*`;
+const yarnInstallCommand = `cd ${dirName} && yarn install && rm -rf .git* bin`;
 
 // Create new React app
 console.log(
