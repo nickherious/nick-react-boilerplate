@@ -21,7 +21,8 @@
     "start": "webpack serve --open",
     "build": "webpack --config webpack.config.js",
     "dev": "yarn build && yarn start",
-    "test": "vitest run"
+    "test": "vitest run",
+    "release": "yarn test && yarn build && yarn changeset publish"
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.23.3",
