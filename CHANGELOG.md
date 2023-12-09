@@ -1,5 +1,11 @@
 # nicks-react-boilerplate
 
+## 1.4.1
+
+### Patch Changes
+
+- 44e5739: remove changeset files for clone
+
 ## 1.4.0
 
 ### Minor Changes
