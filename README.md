@@ -20,21 +20,27 @@ Before you begin, ensure you have the following installed:
 
 2. Navigate to the project directory:
 
-    cd my-react-boilerplate
+    ```bash
+    cd nick-react-boilerplate
 
 3. Install dependencies
 
-    yarn or npm install
+    ```bash
+    yarn
 
 4. Start the development server
 
+    ```bash
     yarn dev
-    Visit http://localhost:8080 in your browser to view the app.
+    
+Visit http://localhost:8080 in your browser to view the app.
 
 5. Build for Production
 
+    ```bash
     yarn build
-    The production build will be available in the dist directory.
+
+The production build will be available in the dist directory.
 
 Configuration
 Edit webpack.config.js for webpack configurations.
