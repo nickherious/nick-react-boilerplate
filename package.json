@@ -1,8 +1,12 @@
 {
-  "name": "superflux",
-  "version": "1.0.0",
+  "name": "nrb",
+  "version": "1.0.1",
   "main": "index.js",
-  "keywords": ["yarn", "react", "boilerplate"],
+  "keywords": [
+    "yarn",
+    "react",
+    "boilerplate"
+  ],
   "author": "Nicholas Herious",
   "license": "MIT",
   "scripts": {
