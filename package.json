@@ -17,6 +17,10 @@
   ],
   "author": "Nicholas Herious",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/nickherious/nick-react-boilerplate",
+    "type": "git"
+  },
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack --config webpack.config.js",
